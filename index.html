@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nirbhay Aggarwal — India Lead, AxionOrbital Space (YC W26). Tap to call, WhatsApp, email, or save contact.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='7' fill='%23E8B04B'/></svg>">
+<title>Nirbhay Aggarwal · India Lead — AxionOrbital Space</title>
+<style>
+  :root{
+    --bg:#FAF7F2; --panel:#FFFFFF; --line:#E7E0D4;
+    --text:#182233; --muted:#5C6B7E; --gold:#B9862A; --gold-solid:#E8B04B;
+    --radius:20px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  ::selection{background:#F3E7CB}
+  body{font-family:"Helvetica Neue",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+      background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;
+      align-items:center;justify-content:center;padding:28px 18px 40px}
+  .card{width:100%;max-width:430px;background:var(--panel);border:1px solid var(--line);
+      border-radius:var(--radius);padding:38px 30px 28px;text-align:center;
+      box-shadow:0 18px 44px rgba(24,34,51,.08)}
+
+  .orb-wrap{position:relative;width:150px;height:150px;margin:0 auto 22px}
+  .orb-wrap .ring{position:absolute;inset:-9px;border-radius:50%;border:1.5px solid var(--gold-solid)}
+  .orb-wrap img{width:150px;height:150px;border-radius:50%;object-fit:cover;position:relative;z-index:1;
+      border:2px solid #fff;box-shadow:0 0 0 1px var(--line), 0 10px 26px rgba(24,34,51,.14)}
+
+  .name{font-family:Georgia,"Times New Roman",serif;font-size:31px;font-weight:700;letter-spacing:.2px;margin-bottom:7px}
+  .role{font-size:13px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+  .org{font-size:14.5px;color:var(--muted);margin-bottom:24px}
+  .org b{color:var(--text);font-weight:600}
+
+  .actions{display:flex;flex-direction:column;gap:11px}
+  .act{display:flex;align-items:center;gap:15px;background:#FBFAF6;
+      border:1px solid var(--line);border-radius:13px;padding:13px 17px;
+      transition:transform .15s, border-color .2s, background .2s;text-decoration:none;color:var(--text)}
+  .act:hover{transform:translateY(-2px);border-color:var(--gold-solid);background:#FDF9EF}
+  .act .ic{width:40px;height:40px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;
+      justify-content:center;font-size:18px;background:#F3EDE0;color:var(--gold)}
+  .act .txt{text-align:left;flex:1;min-width:0}
+  .act .lbl{font-size:10.5px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+  .act .val{font-size:15px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .act .arrow{color:var(--muted);font-size:17px}
+
+  .socials{display:flex;justify-content:center;gap:13px;margin:22px 0 4px}
+  .soc{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;
+      justify-content:center;color:var(--ink);text-decoration:none;transition:transform .15s,border-color .2s,color .2s;background:#fff}
+  .soc:hover{transform:translateY(-2px);border-color:var(--gold-solid);color:var(--gold)}
+  .soc svg{width:19px;height:19px;fill:currentColor}
+
+  .savebtn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:20px;
+      background:var(--gold-solid);color:#241806;font-weight:800;font-size:15px;padding:16px;border-radius:13px;
+      text-decoration:none;transition:background .2s, transform .15s}
+  .savebtn:hover{background:#F0C264;transform:translateY(-1px)}
+  .sharebtn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;margin-top:10px;
+      background:transparent;color:var(--muted);border:1px dashed #DAD2C0;
+      font-weight:600;font-size:13px;padding:13px;border-radius:13px;cursor:pointer;font-family:inherit;transition:border-color .2s,color .2s}
+  .sharebtn:hover{border-color:var(--gold);color:var(--gold)}
+  .sharemsg{margin-top:10px;font-size:12px;color:var(--gold);min-height:16px}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="orb-wrap">
+    <div class="ring"></div>
+    <img src="photo.jpg" alt="Nirbhay Aggarwal" width="150" height="150">
+  </div>
+  <div class="name">Nirbhay Aggarwal</div>
+  <div class="role">India Lead</div>
+  <div class="org"><b>AxionOrbital Space</b> · YC W26 · Chandigarh</div>
+
+  <div class="actions">
+    <a class="act" href="tel:+918968973081">
+      <span class="ic call">📞</span>
+      <span class="txt"><span class="lbl">Call</span><div class="val">+91 896 897 3081</div></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="act" href="https://wa.me/918968973081" target="_blank" rel="noopener">
+      <span class="ic wa">💬</span>
+      <span class="txt"><span class="lbl">WhatsApp</span><div class="val">Message me directly</div></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="act" href="mailto:nirbhay@axionorbital.space">
+      <span class="ic mail">✉️</span>
+      <span class="txt"><span class="lbl">Email</span><div class="val">nirbhay@axionorbital.space</div></span>
+      <span class="arrow">→</span>
+    </a>
+    <a class="act" href="https://tryaxionorbital.com" target="_blank" rel="noopener">
+      <span class="ic web">🔗</span>
+      <span class="txt"><span class="lbl">Company</span><div class="val">tryaxionorbital.com</div></span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <div class="socials">
+    <a class="soc" href="https://www.linkedin.com/in/nirbhayaggarwal" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.46v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45z"/></svg>
+    </a>
+  </div>
+
+  <a class="savebtn" href="Nirbhay_Aggarwal.vcf" download>⬇ &nbsp;Save to Contacts</a>
+  <button class="sharebtn" onclick="shareCard()">↗ &nbsp;Share this card</button>
+  <div class="sharemsg" id="sharemsg"></div>
+
+</div>
+
+<script>
+function shareCard(){
+  const data = { title:"Nirbhay Aggarwal — India Lead, AxionOrbital Space",
+                 text:"Nirbhay Aggarwal · India Lead, AxionOrbital Space (YC W26) · +91 896 897 3081",
+                 url:location.href };
+  const msg = document.getElementById('sharemsg');
+  if(navigator.share){ navigator.share(data).catch(()=>{}); }
+  else{
+    navigator.clipboard.writeText(location.href).then(()=>{
+      msg.textContent = "Link copied — share it anywhere."; setTimeout(()=>msg.textContent="",2600);
+    }).catch(()=>{ msg.textContent = "Copy the URL from the address bar to share."; });
+  }
+}
+</script>
+</body>
+</html>
