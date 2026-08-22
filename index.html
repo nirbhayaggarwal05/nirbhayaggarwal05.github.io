@@ -57,7 +57,9 @@
       background:transparent;color:var(--muted);border:1px dashed #DAD2C0;
       font-weight:600;font-size:13px;padding:13px;border-radius:13px;cursor:pointer;font-family:inherit;transition:border-color .2s,color .2s}
   .sharebtn:hover{border-color:var(--gold);color:var(--gold)}
-  .sharemsg{margin-top:10px;font-size:12px;color:var(--gold);min-height:16px}
+  .qrb{margin-top:20px;padding-top:20px;border-top:1px dashed #DAD2C0}
+  .qrb img{width:108px;height:108px;border-radius:12px;border:1px solid var(--line);margin:0 auto 10px;display:block}
+  .qrb .cap{font-size:11px;color:var(--muted);letter-spacing:1.2px;text-transform:uppercase;font-weight:700}
 </style>
 </head>
 <body>
@@ -104,6 +106,10 @@
   <button class="sharebtn" onclick="shareCard()">↗ &nbsp;Share this card</button>
   <div class="sharemsg" id="sharemsg"></div>
 
+  <div class="qrb">
+    <img src="qr.png" alt="QR code — scan to open this card">
+    <div class="cap">Scan to open</div>
+  </div>
 </div>
 
 <script>
